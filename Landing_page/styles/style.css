@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    background-color:rgb(72,20,44);
+    color : #ffff;
+    font-family: poppins;
+    max-width: px;
+    margin: 0 auto;
+    padding: 3px;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 2px;
+}
+
+
+li{
+    display: inline-block;
+    margin:1px;
+}
+
+a{
+    color:#72,20,44;
+}
+
+a:hover{
+    color:rgb(72,20,44);
+    transition: 0.3s all;
+}
+
+#falecomigo-btn{
+border: 2px solid rgb(#ffff);
+padding:10px;
+border-radius: 15px;
+}
+#falecomigo-btn:hover{
+    background-color:rgb(72,20,44) ;
+    color:#ffff;
+    }
+
+h1{
+    font-weight: 500px;
+}
+main{
+    display:  flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+
+h2{
+    font-size: 66px;
+    line-height: 10px;
+    font-family: ;
+}
+
+span{
+color :rgb(#ffff);
+}
+
+p{
+    line-height: 45px;
+    max-width: 500px;
+    font-family: ;
+}
+
+img{
+    width: 600px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color:rgb(72,20,) ;
+    color: #48142c;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+   cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
